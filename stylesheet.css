@@ -1,0 +1,63 @@
+body {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.title {
+    padding-left: 3%;
+    padding-top: 0.5em;
+    padding-bottom: 5%;
+    color: var(--title);
+    text-shadow: 1px 1px 1px #92296857;   
+}
+
+.fade-top {
+    background: linear-gradient(178deg, var(--gradient),rgba(255,255,255,0) 80%);
+}
+
+.left-pad {
+    margin-left: 2.5em;
+    z-index: 100;
+}
+
+details {
+    padding-top: 1em
+}
+
+details > summary {
+    color: #f78dcd;
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details > p {
+    margin: 0;
+    padding: 0.8em;
+    color: var(--text)
+}
+
+/* Styles for light theme */
+.theme-light {
+    background: #fff;
+    --gradient: #f78dcd;
+    --title: #fcf0f7;
+    --text: #745e69;
+}
+
+/* Styles for dark theme */
+.theme-dark {
+    background: #000;
+    --gradient: #ac337c;
+    --title: #e8b6d3;
+    --text: #efd4e3;
+}
