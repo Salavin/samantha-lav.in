@@ -6,8 +6,35 @@ body {
   margin: 0;
 }
 
+li {
+	margin: 10px;
+	padding: 0 0 0 35px;
+	list-style: none;
+	background-image: url("/assets/leaf.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 25px;
+    color: var(--text)
+}
+
+a:link, a:visited {
+  color: var(--gradient);
+}
+
+a:link:active, a:visited:active {
+  color: var(--gradient);
+}
+
+.inner > li {
+    margin: 0
+}
+
+.inner > ul {
+    padding: 0;
+}
+
 ul {
-    list-style-type: none;
+    margin: 0
 }
 
 .title {

@@ -5,31 +5,29 @@
     options: {
         "particles": {
             "number": {
-                "value": 50,
+                "value": 30,
                 "density": {
                     "enable": true,
                     "value_area": 800
                 }
             },
-            "color": {
-                "value": "#f78dcd"
-            },
             "shape": {
-                "type": "edge",
-                "stroke": {
-                    "width": 1,
-                    "color": "#f78dcd"
-                },
-                "polygon": {
-                    "nb_sides": 5
-                },
+                "type": "image",
+                "options": {
+                    "image": {
+                        "src": "https://samantha-lav.in/assets/leaf.png",
+                        "width": 100,
+                        "height": 100,
+                        "replaceColor": false
+                    }
+                }
             },
             "opacity": {
-                "value": 1,
+                "value": .8,
                 "random": false,
             },
             "size": {
-                "value": 5,
+                "value": 20,
                 "random": true,
             },
             "move": {
@@ -67,20 +65,6 @@
             "enable": true,
             "zIndex": -1000
         },
-        // "interactivity": {
-        //     "detectsOn": "window",
-        //     "events": {
-        //         "onClick": {
-        //             "enable": true,
-        //             "mode": "push",
-        //         }
-        //     },
-        //     "modes": {
-        //         "push": {
-        //             "quantity": 1
-        //         }
-        //     }
-        // },
     },
   });
 })();
